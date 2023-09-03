@@ -11,7 +11,7 @@ const generarProductsCards = (libros) => {
 
         let card = document.createElement("div")
         card.innerHTML = `
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem, margin:5px;">
             <img class="card-img-top" src="${imagen}" alt="Card image cap">
             <div class="card-body">
                 <p class="card-text"> ${titulo}</p>
